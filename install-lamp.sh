@@ -20,6 +20,8 @@ sudo chmod -R 0755 /var/www/html/
 
 # Create info.php for testing php processing
 sudo echo "<?php phpinfo(); ?>" > /var/www/html/info.php
+#
+sudo apt install xdg-utils
 
 # Open localhost in the default browser
 xdg-open "http://localhost"
